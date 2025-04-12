@@ -21,7 +21,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             DrawCanvasComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Column(modifier = Modifier.padding(innerPadding)) {  }
+                    Column(modifier = Modifier.padding(innerPadding)) {
+
+                    }
                 }
             }
         }
